@@ -506,6 +506,8 @@ static void Error_Handler(void)
     /* Toggle LED2 */
     BSP_LED_Toggle(LED2);
     HAL_Delay(500);
+	
+	;
   }
 }
 
